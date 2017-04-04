@@ -1120,6 +1120,65 @@ body.page-template .post-title {
     line-height: 1.5em;
 }
 
+.tag-cloud {
+    text-align: center;
+}
+
+.tag-cloud a {
+    display: inline-block;
+    margin: 10px
+}
+
+.page-archive .archive-page-counter {
+    position: relative;
+    top: 3px;
+    left: 20px;
+}
+
+.page-archive .posts-collapse {
+    position: relative;
+    z-index: 1010;
+}
+
+.page-archive .posts-collapse .archive-move-on {
+    position: absolute;
+    top: 11px;
+    left: 0;
+    margin-left: -6px;
+    width: 10px;
+    height: 10px;
+    opacity: .5;
+    background: #555;
+    border: 1px solid #fff;
+    border-radius: 50%
+}
+
+.page-archive .posts-collapse::before,.page-archive .posts-collapse::after {
+    content: " ";
+    position: absolute
+}
+
+.category-all-page .category-all-title {
+    text-align: center
+}
+
+.main-inner {
+    margin: 0 auto;
+    width: 700px;
+}
+
+.posts-collapse .collection-title {
+    position: relative;
+    margin: 60px 0;
+}
+
+.posts-collapse .collection-title h2 {
+    margin-left: 20px
+}
+
+.posts-collapse .collection-title small {
+    color: #bbb
+}
 
 /* ==========================================================================
    5. Single Post - When you click on an individual post
