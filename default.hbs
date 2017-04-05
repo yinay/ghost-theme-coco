@@ -5,9 +5,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
+     {{!-- Ghost outputs important style and meta data with this tag --}}
+    {{ghost_head}}
+    
     {{!-- Page Meta --}}
     <title>{{meta_title}}</title>
-    <meta name="description" content="{{meta_description}}" />
 
     {{!-- Mobile Meta --}}
     <meta name="HandheldFriendly" content="True" />
@@ -24,8 +26,7 @@
     <link rel="stylesheet" type="text/css" href="{{asset "css/bootstrap.min.css"}}" />
 
 --}}
-    {{!-- Ghost outputs important style and meta data with this tag --}}
-    {{ghost_head}}
+   
 </head>
     
 {{!-- jQuery needs to come before `{{ghost_foot}}` so that jQuery can be used in code injection --}}
