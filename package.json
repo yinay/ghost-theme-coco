@@ -2,7 +2,7 @@
     "name": "coco",
     "description": "The personal blogging theme for Ghost. Beautiful, minimal and responsive.",
     "demo": "http://blog.icloudyin.com",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "engines": {
         "ghost": ">=0.9.0 <1.0.0"
     },
