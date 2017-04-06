@@ -33,7 +33,7 @@
             </figure>
             {{/if}}
 
-            <section class="author">
+            <section class="author donate_bar">
                 <h4><a href="{{url}}">{{name}}</a></h4>
 
                 {{#if bio}}
@@ -42,20 +42,25 @@
                     <p>Read <a href="{{url}}">more posts</a> by this author.</p>
                 {{/if}}
                 <div class="author-meta">
-                    {{#if location}}<span class="author-location icon-location">{{location}}</span>{{/if}}
+                    
+                     <span class="author-location">
+                         问题交流：
+                         <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=287688517&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:287688517:51" alt="更一步交流" title="更一步交流"/>
+                         </a>
+                    </span> 
                     {{#if website}}<span class="author-link icon-link"><a href="{{website}}">{{website}}</a></span>{{/if}}
                 </div>
+                  <span class="donate_txt">
+                    你有所获，我有所得！扫一扫右边，鼓励一下！
+                  </span>
+ 
             </section>
 
         {{/author}}
              
             <section class="share donate_bar">
                 <div>
-<!--
-                    <a class="btn_donate" href="">
-                        
-                    </a>
--->
+ 
                      
                 <a href="http://blog.icloudyin.com/content/images/weixinpay.png">
                     <img src="http://blog.icloudyin.com/content/images/weixinpay.png" height="190px" width="auto" />
@@ -67,9 +72,7 @@
  
             
             
-            <span class="donate_txt">
-              如您觉得文章不错，对您有所帮助，可以通过“微信支付”请我喝咖啡。
-            </span>
+           
             
 
            
